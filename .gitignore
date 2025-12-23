@@ -1,0 +1,33 @@
+# --- JUPYTER NOTEBOOKS ---
+# Archivos temporales de guardado automático
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Archivos de caché de ejecución
+.virtual_documents/
+
+# --- PYTHON ---
+# Caché de compilación
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (MUY IMPORTANTE no subirlos)
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+share/
+
+# --- DATOS Y ARCHIVOS PESADOS ---
+# No subas archivos de datos gigantes (puedes subirlos manualmente si pesan poco)
+*.csv
+*.xlsx
+*.sqlite
+*.json
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
